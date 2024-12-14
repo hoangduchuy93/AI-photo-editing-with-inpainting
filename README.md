@@ -1,11 +1,11 @@
 # AI Photo Editing With Inpainting
 
 # Project drscription
-- App Functionality: The app enables users to either select a subject from an image and change its background or keep the background and change the subject. 
-- Image Upload and Selection: Users start by uploading an image and selecting the main object by clicking on it. The app then uses the Segment Anything Model (SAM) to create a precise mask around the selected object, selecting the most accurate mask generated.
-- Mask Refinement: Users are shown the initial mask result and can either accept it or refine it further by clicking additional points on the image. This step ensures high accuracy in masking the desired object.
-- Background Substitution: Once the mask is finalized, users can provide a text description (and possibly a negative prompt) to specify a new background for the selected object. An infill model generates this new background, and the final image is displayed. Alternatively, users can choose to invert the mask to substitute the subject while keeping the background intact.
-- Versatile Uses: The app can be utilized for various tasks such as swapping backgrounds, swapping subjects, removing objects, and more, providing users with a wide range of creative possibilities.
+- App Functionality: enables users to either select a subject from an image and change its background or keep the background and change the subject. 
+- Image Upload and Selection: upload an image and select the main object by clicking on it. The app uses the Segment Anything Model (SAM) to create a precise mask around the selected object, selecting the most accurate mask generated.
+- Mask Refinement: Users are shown the initial mask result and can either accept it or refine it further by clicking additional points on the image. 
+- Background Substitution:when mask is finalized, users can provide a text description (and possibly a negative prompt) to specify a new background for the selected object. An infill model generates this new background, and the final image is displayed. Alternatively, users can choose to invert the mask to substitute the subject while keeping the background intact.
+- Application: for various tasks like swapping backgrounds, swapping subjects, removing objects.
 
 ### Installation
 1. Clone the project to your local machine
