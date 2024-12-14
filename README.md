@@ -34,6 +34,7 @@ jupyter notebook
 
 ### Result demo
 Below is some results
+
 ***1. The orginal Mona Lisa photo***
 - Prompt: the very royal queen with the crown on her head
 - Negative prompt: artifacts, low quality, distortion
