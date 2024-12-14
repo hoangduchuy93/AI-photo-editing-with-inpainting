@@ -1,6 +1,6 @@
 # AI Photo Editing With Inpainting
 
-# Project drscription
+# Project description
 - App Functionality: enables users to either select a subject from an image and change its background or keep the background and change the subject. 
 - Image Upload and Selection: upload an image and select the main object by clicking on it. Apply Segment Anything Model (SAM) to create a precise mask around the selected object, selecting the most accurate mask generated.
 - Mask Refinement: Users are shown the initial mask result and can either accept it or refine it further by clicking additional points on the image. 
