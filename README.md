@@ -31,30 +31,25 @@ jupyter notebook
 ```
 
 5. Follow the flow in notebook and open the public URL to try the app
-## Testing
 
-Explain the steps needed to run any automated tests
+### Result demo
+Below is some results
+1. The orginal Mona Lisa photo
+- Prompt: the very royal queen with the crown on her head
+- Negative prompt: artifacts, low quality, distortion
+- Target: the subject of the photo (not the background)
+![image](https://github.com/user-attachments/assets/71c13592-cfcd-4ccf-876b-9b90424d7f6c)
 
-### Break Down Tests
+2. The original Mona Lisa photo
+- Prompt: the girl in red gown in cartoon style
+- Negative prompt: artifacts, low quality, distortion
+- Target: the subject of the photo (not the background)
+![image](https://github.com/user-attachments/assets/447679d7-7a46-414e-b681-9ecd7ef12b83)
 
-Explain what each test does and why
+3. The original a car photo
+- Prompt: the car on the beach
+- Negative prompt: artifacts, low quality, distortion
+- Target: the background (not the subject of the photo)
+![image](https://github.com/user-attachments/assets/818b11d9-6cae-4b02-a43a-1f9ffb71bf0a)
 
-```
-Examples here
-```
 
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
-
-## License
-
-[License](LICENSE.txt)
